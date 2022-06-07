@@ -1,0 +1,16 @@
+.button{
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 10px 2px;
+    cursor: pointer;
+}
+.button:hover{
+    transform: scale(1.03);
+}
+
+.button:disabled{
+    background-color: pink;
+    cursor: not-allowed;
+}
